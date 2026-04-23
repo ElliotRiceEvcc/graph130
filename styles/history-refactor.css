@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/graph130/images/history-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    font-family: "Audiowide", sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main section {
+    flex-grow: 1;
+    width: 30%;
+    margin: 10px;
+    background-color: rgb(237, 246, 249);
+    border: solid rgb(208, 232, 240) 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
