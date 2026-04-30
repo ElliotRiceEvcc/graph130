@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(169, 213, 213);
+    color:rgb(0, 54, 90)
+}
+a {
+    color: rgb(0, 54, 90);
+}
+header, main, aside, footer {
+    width: 90%;
+    margin: auto;
+
+}
+section {
+    box-sizing: border-box;
+    border: white 2px solid;
+    padding: 5px;
+
+}
