@@ -4,9 +4,10 @@ body {
     font-size: 16px;
     box-sizing: border-box;
     font-family: "Chakra Petch", sans-serif;
+    background-color: black;
     
 }
-.hero {
+.history-hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ main section {
     flex-grow: 1;
     width: 30%;
     margin: 10px;
-    background-color: rgb(237, 246, 249);
+    background-color: rgb(129, 181, 199);
     border: solid rgb(208, 232, 240) 2px;
     border-radius: 5px;
     padding: 10px;
