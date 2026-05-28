@@ -27,10 +27,15 @@ footer {
 h1 {
     color: rgb(54, 29, 3);
 }
-img{
+.stewimg{
 
     display: block;
 
     margin: 0 auto;
 
+}
+
+.bigstew {
+    width: 95%;
+    align-content: center;
 }
