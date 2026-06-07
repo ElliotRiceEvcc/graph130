@@ -1,0 +1,43 @@
+:root {
+    --green:#074817;
+    --white:#ffffff;
+    font-family: "Inter", sans-serif;
+}
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+main, header nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+}
+main section {
+    border: solid white 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header a, header p{
+    text-decoration: none;
+    color: lightgrey;
+}
+.hero-orcas{
+    
+}
