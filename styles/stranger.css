@@ -1,9 +1,13 @@
+
 body, .pure-g, .pure-u-1-4 {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-
+.pure-u-1-4 {
+    padding: 10px;
+    text-align: justify;
+}
 h1{
     text-align: center;
 }
@@ -20,6 +24,7 @@ h3 {
     border-bottom: solid 4px black;
     font-size: 28px;
 }
+
 h4 {
     text-transform: uppercase;
 }
@@ -28,7 +33,15 @@ h5 {
     text-transform: uppercase;
     text-align: center;
 }
+
 img {
     padding-top: 10px;
     width: 100%;
+}
+
+hr {
+    width: 90%;
+    height: 10px;
+    color: black;
+    fill: black;
 }

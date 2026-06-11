@@ -1,9 +1,10 @@
 @media screen and (max-width:768px) {
 
-    .project:first-child, .project, main section, main, section, article, header, footer, .pure-g, .pure-u-2-3, .pure-u-1-5, .hero p, .pure-u-1-3, .show-info .stew-content, .stewimg, .bigstew {
+    .project:first-child, .project, main section, main, section, article, header, footer, .pure-g, .pure-u-2-3, .pure-u-1-5, .hero p, .pure-u-1-3, .show-info .stew-content, .stewimg, .bigstew, .pure-g-1-2, .pure-g-1-4 {
     display: block;
     width: 95%;
     margin: auto;
+
 }  
 .history-hero {
     height: 50vw;
