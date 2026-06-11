@@ -9,4 +9,9 @@
 .history-hero {
     height: 50vw;
 }
+.pure-g-1-4 {
+    width: 100%;
+    text-align: left;
+    color: aqua;
+}
 }
