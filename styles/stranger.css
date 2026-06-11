@@ -1,3 +1,9 @@
+body, .pure-g, .pure-u-1-4 {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     text-align: center;
 }
