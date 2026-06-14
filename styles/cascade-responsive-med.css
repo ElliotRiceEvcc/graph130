@@ -1,0 +1,30 @@
+/* @media screen (max-width:649px) and (max-width:768px) { */
+@media (649px <= width <= 768px) {
+    body {
+        background-image: url(../images/cascade-background2jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding:0;
+        color: #344e5f;
+    }
+
+    .container {
+        width:100%;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .content {
+        box-sizing: border-box;
+        padding-left: .8em;
+        width: 60%;
+        float: left
+    }
+
+    .sidebar {
+        float:right;
+        width:32%;
+        padding-bottom: .6em;
+    }
+
+}
