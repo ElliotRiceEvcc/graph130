@@ -8,13 +8,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">  
     <link href="../styles/cascade-mountains.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    <link href="../styles/cascade-responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <article class="container">
         <header>
             <h1>The Cascade Mountain Range</h1>
             <h2>Hiking and Camping Resources</h2>
-            <nav>
+<nav class="navbar">
+    <div class="page-title">
+        <p style="font-family: Arial, Helvetica, sans-serif;">GRAPH 130</p>
+    </div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    </nav>
+    <nav class="hamish">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="theater.html">Theater Bill</a></li>
+            <li><a href="history.html">History of the Internet</a></li>
+            <li><a href="history-refactor.html">History of the Internet (But Better!)</a></li>
+            <li><a href="stew-recipe.html">Stew Recipe</a></li>
+            <li><a href="optimizing-images.html">Optimizing Images</a></li>
+            <li><a href="cascade-mountains.html">Cascade Mountains</a></li>
+            <li><a href="fluid-dimensions.html">Fluid Dimensions</a></li>
+            <li><a href="responsive-colors.html">Responsive Colors</a></li>
+        </ul>
+    </nav>
+    <script src="../scripts/mobile-nav.js"></script>
+            <!-- <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Trails</a></li>
@@ -22,7 +49,7 @@
                     <li><a href="#">Map</a></li>
                     <li><a href="#">Products</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
     <section class="content">  
     <p>
@@ -131,7 +158,7 @@
    
     <footer>
     <p>
-        Content taken from wikipedia (http://en.wikipedia.org/wiki/Cascade_Range)
+        Content taken from <a href="//en.wikipedia.org/wiki/Cascade_Range" target="_blank">Wikipedia</a>
         Elliot Rice 2026. Everett Community College Graph 130 web coding project.
     </p>   
     </footer>
