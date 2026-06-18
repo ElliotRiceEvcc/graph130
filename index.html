@@ -4,42 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../graph130/styles/mobile.css" rel="stylesheet" type="text/css">
-        <title> Elliot's Website</title>
-        <style>
-            h3 {
-                font-size: 45px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: navy;
-            }
-            p { 
-                font-family: Arial, Helvetica, sans-serif; 
-                color: cornflowerblue;
-            }
-            h2 {
-                font-size: 60;
-                font-family: Arial, Helvetica, sans-serif;
-                color: navy
-            }
-        </style>
-    </head>
-    <header>
-        <p>My Pages:</p>
-        <nav>
-            <ol>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/theater" target="_blank">Theater Bill</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/history" target="_blank">History of the Internet</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/history-refactor" target="_blank">History of the Internet (But Better!)</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/stew-recipe" target="_blank">Stew Recipe</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/optimizing-images" target="_blank">Optimizing Images</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/cascade-mountains" target="_blank">Cascade Mountains</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/fluid-dimensions" target="_blank">Fluid Dimensions</a></li>
-            <li><a href="https://elliotriceevcc.github.io/graph130/pages/responsive-colors" target="_blank">Responsive Colors</a></li>
-            <li><a href="../pages/magazineprojectpg1.html">Magazine Project</a></li>
-        </ol>
+        <link href="../styles/nav.css" rel="stylesheet">
+        <link href="../styles/index.css" rel="stylesheet">
 
-        </nav>
-    </header>
-    <Body>
+        <title> Elliot's Website</title>
+    </head>
+<nav class="navbar">
+    <div class="page-title">
+        <p style="font-family: Arial, Helvetica, sans-serif;">GRAPH 130</p>
+    </div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    </nav>
+    <nav class="hamish">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="theater.html">Theater Bill</a></li>
+            <li><a href="history.html">History of the Internet</a></li>
+            <li><a href="history-refactor.html">History of the Internet (But Better!)</a></li>
+            <li><a href="stew-recipe.html">Stew Recipe</a></li>
+            <li><a href="optimizing-images.html">Optimizing Images</a></li>
+            <li><a href="cascade-mountains.html">Cascade Mountains</a></li>
+            <li><a href="fluid-dimensions.html">Fluid Dimensions</a></li>
+            <li><a href="responsive-colors.html">Responsive Colors</a></li>
+            <li><a href="magazineprojectpg1.html">The Stranger Article</a></li>
+        </ul>
+</nav>
+<script src="../scripts/mobile-nav.js"></script>
+
+<body>
+    <aside class="sidebar">
+        <img src="../graph130/images/thatsme.png" alt="image that looks like me, elliot rice"/>
         <h2>Elliot Rice, This is (not) my First Website</h1>
         <h3>School & Course</h2>
         <p>EvCC, Graph 130</p>
@@ -54,8 +52,10 @@
         <h3>What is your favorite color?</h3>
         <p style="color:#ccff00">Chartruse #ccff00</p>
         <p><span style="color:teal"> Wait no, I like this blue </span>as well</p>
+    </aside>
     
-    </Body>
+
+</body>
 </html>
 
 
