@@ -4,16 +4,25 @@ body, .pure-g, .pure-u-1-4 {
     margin: 0px;
     padding: 0px;
 }
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
 .pure-u-1-4 {
     padding: 20px;
     text-align: justify;
 }
 h1{
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h2 {
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+
 }
 
 h3 {
@@ -41,7 +50,20 @@ img {
 
 hr {
     width: 90%;
-    height: 10px;
+    height: 5px;
     color: black;
     fill: black;
 }
+
+aside {
+padding: 20px;
+}
+
+.pure-u-1-1, a:link, a:visited {
+    text-decoration: none;
+    text-align: center;
+    background-color: #555;
+    color: white;
+}
+
+
